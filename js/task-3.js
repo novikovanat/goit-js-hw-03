@@ -1,9 +1,8 @@
 function filterArray(numbers, value) {
   let numbersBiggerThanValue = [];
-  for (i = 0; i <= numbers.length - 1; i++) {
-    let currentIndexValue = numbers[i];
-    if (value < currentIndexValue) {
-      numbersBiggerThanValue.push(currentIndexValue);
+  for (number of numbers) {
+    if (value < number) {
+      numbersBiggerThanValue.push(number);
     }
   }
   return numbersBiggerThanValue;
